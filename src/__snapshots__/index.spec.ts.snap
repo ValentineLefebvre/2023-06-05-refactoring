@@ -1,14 +1,155 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`2nd scenario : player goes to penalty box 1`] = `
+[
+  "New player added : Mathieu at place 0, with 0 coin and not in penalty box.",
+  "New player added : Thomas at place 0, with 0 coin and not in penalty box.",
+  "Player Mathieu got 1 on their dice.",
+  "Player Mathieu's new place is 1.",
+  "Science Question 0",
+  "Player Mathieu just got sent to penalty box.",
+  "Next player : Thomas.",
+]
+`;
+
+exports[`3rd scenario : player goes to penalty box then comes out 1`] = `
+[
+  "New player added : Mathieu at place 0, with 0 coin and not in penalty box.",
+  "New player added : Thomas at place 0, with 0 coin and not in penalty box.",
+  "Player Mathieu got 1 on their dice.",
+  "Player Mathieu's new place is 1.",
+  "Science Question 0",
+  "Player Mathieu just got sent to penalty box.",
+  "Next player : Thomas.",
+  "Player Thomas got 2 on their dice.",
+  "Player Thomas's new place is 2.",
+  "Sports Question 0",
+  "Player Thomas got one more coin. They have 1 coin(s) in their purse.",
+  "Next player : Mathieu.",
+  "Player Mathieu got 3 on their dice.",
+  "Player Mathieu just got out of penalty box.",
+  "Player Mathieu's new place is 4.",
+  "Pop Question 0",
+  "Player Mathieu got one more coin. They have 1 coin(s) in their purse.",
+  "Next player : Thomas.",
+]
+`;
+
+exports[`4th scenario : player goes to penalty box and stays there 1`] = `
+[
+  "New player added : Mathieu at place 0, with 0 coin and not in penalty box.",
+  "New player added : Thomas at place 0, with 0 coin and not in penalty box.",
+  "Player Mathieu got 1 on their dice.",
+  "Player Mathieu's new place is 1.",
+  "Science Question 0",
+  "Player Mathieu just got sent to penalty box.",
+  "Next player : Thomas.",
+  "Player Thomas got 2 on their dice.",
+  "Player Thomas's new place is 2.",
+  "Sports Question 0",
+  "Player Thomas got one more coin. They have 1 coin(s) in their purse.",
+  "Next player : Mathieu.",
+  "Player Mathieu got 4 on their dice.",
+  "Player Mathieu stays in penalty box.",
+]
+`;
+
+exports[`5th scenario : player goes to penalty box, comes out but goes back into it 1`] = `
+[
+  "New player added : Mathieu at place 0, with 0 coin and not in penalty box.",
+  "New player added : Thomas at place 0, with 0 coin and not in penalty box.",
+  "Player Mathieu got 1 on their dice.",
+  "Player Mathieu's new place is 1.",
+  "Science Question 0",
+  "Player Mathieu just got sent to penalty box.",
+  "Next player : Thomas.",
+  "Player Thomas got 2 on their dice.",
+  "Player Thomas's new place is 2.",
+  "Sports Question 0",
+  "Player Thomas got one more coin. They have 1 coin(s) in their purse.",
+  "Next player : Mathieu.",
+  "Player Mathieu got 3 on their dice.",
+  "Player Mathieu just got out of penalty box.",
+  "Player Mathieu's new place is 4.",
+  "Pop Question 0",
+  "Player Mathieu just got sent to penalty box.",
+  "Next player : Thomas.",
+]
+`;
+
+exports[`6th scenario : one player circles the board 1`] = `
+[
+  "New player added : Mathieu at place 0, with 0 coin and not in penalty box.",
+  "New player added : Thomas at place 0, with 0 coin and not in penalty box.",
+  "New player added : Clément at place 0, with 0 coin and not in penalty box.",
+  "Player Mathieu got 6 on their dice.",
+  "Player Mathieu's new place is 6.",
+  "Sports Question 0",
+  "Player Mathieu got one more coin. They have 1 coin(s) in their purse.",
+  "Next player : Thomas.",
+  "Player Thomas got 1 on their dice.",
+  "Player Thomas's new place is 1.",
+  "Science Question 0",
+  "Player Thomas got one more coin. They have 1 coin(s) in their purse.",
+  "Next player : Clément.",
+  "Player Clément got 2 on their dice.",
+  "Player Clément's new place is 2.",
+  "Sports Question 1",
+  "Player Clément got one more coin. They have 1 coin(s) in their purse.",
+  "Next player : Mathieu.",
+  "Player Mathieu got 6 on their dice.",
+  "Player Mathieu has circled the board.",
+  "Player Mathieu's new place is 0.",
+  "Pop Question 0",
+  "Player Mathieu got one more coin. They have 2 coin(s) in their purse.",
+  "Next player : Thomas.",
+]
+`;
+
 exports[`My first scenario 1`] = `
 [
+  "New player added : Mathieu at place 0, with 0 coin and not in penalty box.",
+  "New player added : Thomas at place 0, with 0 coin and not in penalty box.",
+  "New player added : Clément at place 0, with 0 coin and not in penalty box.",
+  "Player Mathieu got 1 on their dice.",
+  "Player Mathieu's new place is 1.",
   "Science Question 0",
+  "Player Mathieu got one more coin. They have 1 coin(s) in their purse.",
+  "Next player : Thomas.",
+  "Player Thomas got 1 on their dice.",
+  "Player Thomas's new place is 1.",
   "Science Question 1",
+  "Player Thomas got one more coin. They have 1 coin(s) in their purse.",
+  "Next player : Clément.",
+  "Player Clément got 1 on their dice.",
+  "Player Clément's new place is 1.",
   "Science Question 2",
+  "Player Clément got one more coin. They have 1 coin(s) in their purse.",
+  "Next player : Mathieu.",
+  "Player Mathieu got 1 on their dice.",
+  "Player Mathieu's new place is 2.",
   "Sports Question 0",
+  "Player Mathieu got one more coin. They have 2 coin(s) in their purse.",
+  "Next player : Thomas.",
+  "Player Thomas got 1 on their dice.",
+  "Player Thomas's new place is 2.",
   "Sports Question 1",
+  "Player Thomas got one more coin. They have 2 coin(s) in their purse.",
+  "Next player : Clément.",
+  "Player Clément got 1 on their dice.",
+  "Player Clément's new place is 2.",
   "Sports Question 2",
+  "Player Clément got one more coin. They have 2 coin(s) in their purse.",
+  "Next player : Mathieu.",
+  "Player Mathieu got 1 on their dice.",
+  "Player Mathieu's new place is 3.",
   "Rock Question 0",
+  "Player Mathieu got one more coin. They have 3 coin(s) in their purse.",
+  "Next player : Thomas.",
+  "Player Thomas got 1 on their dice.",
+  "Player Thomas's new place is 3.",
   "Rock Question 1",
+  "Player Thomas got one more coin. They have 3 coin(s) in their purse.",
+  "Next player : Clément.",
 ]
 `;
