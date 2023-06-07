@@ -93,3 +93,33 @@ test("6th scenario : one player circles the board", async () => {
 		game.wasCorrectlyAnswered();
 	});
 });
+
+test("7th scenario : one player wins", async () => {
+	runGoldenMaster(async () => {
+		const game = new Game();
+		game.add("Mathieu");
+		game.add("Thomas");
+		game.roll(1);
+		game.wasCorrectlyAnswered();
+		game.roll(1);
+		game.wasCorrectlyAnswered();
+		game.roll(1);
+		game.wasCorrectlyAnswered();
+		game.roll(1);
+		game.wasCorrectlyAnswered();
+		game.roll(1);
+		game.wasCorrectlyAnswered();
+		game.roll(1);
+		game.wasCorrectlyAnswered();
+		game.roll(1);
+		game.wasCorrectlyAnswered();
+		game.roll(1);
+		game.wasCorrectlyAnswered();
+		game.roll(1);
+		game.wasCorrectlyAnswered();
+		game.roll(1);
+		game.wasCorrectlyAnswered();
+		game.roll(1);
+		game.wasCorrectlyAnswered();
+	});
+});
