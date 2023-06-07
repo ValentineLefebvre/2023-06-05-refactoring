@@ -110,7 +110,7 @@ export class Game {
 				console.log(`Player ${this.players[this.currentPlayer]} got one more coin. They have ${this.purses[this.currentPlayer]} coin(s) in their purse.`);
 				
 				var winner = this.didPlayerWin();
-				if (winner === true) {
+				if (winner) {
 					console.log(`Player ${this.players[this.currentPlayer]} has won.`);
 				}
 				this.currentPlayer += 1;
@@ -133,7 +133,7 @@ export class Game {
 		console.log(`Player ${this.players[this.currentPlayer]} got one more coin. They have ${this.purses[this.currentPlayer]} coin(s) in their purse.`);
 
 		var winner = this.didPlayerWin();
-		if (winner === true) {
+		if (winner) {
 			console.log(`Player ${this.players[this.currentPlayer]} has won.`);
 		}
 
